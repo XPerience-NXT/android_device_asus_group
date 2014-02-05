@@ -1,0 +1,31 @@
+ro.opengles.version = 131072
+wifi.interface=wlan0
+rild.libpath=/system/lib/libril-icera.so
+rild.libargs=-e wwan0
+persist.tegra.nvmmlite = 1
+ro.audio.monitorOrientation=true
+
+#NFC
+debug.nfc.fw_download=false
+debug.nfc.se=false
+
+# set default lcd density to TVDPI
+ro.sf.lcd_density=213
+
+# don't preload OpenGL in Zygote, the Tegra drivers do not like it
+ro.zygote.disable_gl_preload=true
+
+# configure PRISM
+persist.tegra.didim.video = 5
+
+
+# hardware info
+ro.device.chipset=Nvidia Tegra 3
+ro.device.cpu=1.3GHz quad-core Cortex-A9
+ro.device.gpu=ULP GeForce
+ro.device.rear_cam=None
+ro.device.front_cam=1.2 MP
+ro.device.screen_res=800x1280
+
+#####FINISH TEST BUILD FOR Grouper MADE BY KLOZZ_JESUS AKA TEAMMEX#############
+######XPERIENCE PROYECT######################## 
